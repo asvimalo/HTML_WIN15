@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeEx2", "HomeEx2\HomeEx2.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L17_05_16", "L17_05_16\L17_05_16.csproj", "{66E0964D-5326-46ED-B693-80AC291D5DF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L19_05_16", "L19_05_16\L19_05_16.csproj", "{68E2C5EF-68E2-4D86-94E8-5CEBFCF0AC02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{66E0964D-5326-46ED-B693-80AC291D5DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66E0964D-5326-46ED-B693-80AC291D5DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66E0964D-5326-46ED-B693-80AC291D5DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E2C5EF-68E2-4D86-94E8-5CEBFCF0AC02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E2C5EF-68E2-4D86-94E8-5CEBFCF0AC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E2C5EF-68E2-4D86-94E8-5CEBFCF0AC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E2C5EF-68E2-4D86-94E8-5CEBFCF0AC02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

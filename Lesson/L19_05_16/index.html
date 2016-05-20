@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <fieldset>
+        <!--w3c.github.io-->
+        <form>
+            <!--Standart input-->
+            <h1>Kats</h1>
+            <label for="typecats">Agressive Cats: </label><input id="typecats" type="text" name="name" maxlength="4" placeholder="Name's cat..." autofocus/><br />
+            <!--Password-->
+            <label for="pwd">Password: </label><input id="pwd" type="password" name="Pwd" maxlength="16" /><br />
+            <!--Check box-->
+            <h3>Which color du you like?</h3>
+            <label for="color">Purple </label><input id="color" name="catcolor" type="checkbox" checked value="Purple" />
+            <label for="color">Rose </label><input id="color" name="catcolor" type="checkbox" value="Rose" />
+            <label for="color">Green </label><input id="color" name="catcolor" type="checkbox" value="Rose" />
+            <hr />
+            <!--Radio Button-->
+            <h3>Gender</h3>
+            <label for="gender">Male </label><input id="gender" name="gender" type="radio" value="Male" />
+            <label for="gender">Female</label><input id="gender" name="gender" type="radio" value="Female" /><br />
+            <hr />
+            <!--Color-->
+            <h3>Color</h3>
+            <input type="color" name="color2" /><br /><br />
+            <hr />
+            <h3>Datalist tag</h3>
+            <!--Datalist -->
+            <label for="toilets">Toilet: </label><input id="toilets" type="text" list="myList" name="Sex" />
+            <datalist id="myList">
+                <option label="Male" value="Male">If you go to the men room</option>
+                <option label="Female" value="Female">If you go to the women room</option>
+            </datalist>
+            
+            <label for="brend">Brends: </label><input id="brend" name="carmodels" list="cars" />
+            <datalist id="cars">
+                <option value="Audi"></option>
+                <option value="VW"></option>
+                <option value="Renault"></option>
+                <option value="Citröen"></option>
+                <option value="Mitzubishi"></option>
+                <option value="Honda"></option>
+            </datalist>
+            <hr />
+            <!--Dropdown list-->
+            <h3>DropDownList:</h3>
+            <select name="Vehicles">
+                <optgroup label="Car">
+                    <option>VW</option>
+                    <option>Mercedes</option>
+                    <option>Ferrari</option>
+                </optgroup>
+                <optgroup label="Bike">
+                    <option>Yamaha</option>
+                    <option>Honda</option>
+                    <option>Kawasaki</option>
+                </optgroup>
+            </select>
+            <hr />
+            <input type="submit" name="Send" />
+        </form>
+    </fieldset>
+    <br />
+    <fieldset>
+        <form>
+            <label for="name">Name: </label><input id="name" type="text" name="name" required /><br />
+            <label for="email">Email: </label><input id="email" type="email" required /><br />
+            <label for="code">Code: </label><input id="code" required /><br />
+            <input type="submit" name="send" />
+            <input type="reset" name="reset" value="reset" />
+            <input type="image" src="images/yinyang.png" alt="yinyang picture" />
+            <hr />
+            <!--Använder JS (onclick js funtion)-->
+            <h3>JS</h3>
+            <input type="button" value="button" onclick="alert('Warning');" />
+            <h3>Button tag</h3>
+            <button type="button">Wait for JavaScript</button>
+            <button type="reset">Clean/Reset</button>
+            <button type="submit">Submit
+                <span style="color:red">Warning red</span>
+            </button>
+        </form>
+    </fieldset>
+    <form>
+        <fieldset>
+            <legend>Contact</legend>
+            <label for="ett">Tilltslnamn:</label><input id="ett" tabindex="1" />
+            <label for="två">Civiltillstånd:</label><input id="två" tabindex="1" />
+            <label for="tre">Title:</label><input id="tre" tabindex="1" />
+
+        </fieldset>
+        <fieldset id="special">
+            <legend>CO Contact</legend>
+
+
+            <label for="fyre">Tilltslnamn:</label><input id="ett" tabindex="2" />
+            <label for="fem">Civiltillstånd:</label><input id="två" tabindex="2" />
+            <label for="sex">Title:</label><input id="tre" tabindex="2" />
+            <label for="spec">Inneboende:</label><input type="checkbox" id="spec" />
+
+        </fieldset>
+        <fieldset id="special">
+            <legend>Address</legend>
+
+
+            <label for="sju">Gata:</label><input id="ett" tabindex="3" />
+            <label for="åta">Postnummer:</label><input id="två" tabindex="3" />
+            <label for="nia">Stad:</label><input id="nia" tabindex="3" />
+
+        </fieldset>
+        <button type="submit">
+            <h3>Send</h3>
+            <p>Form</p>
+            <img src="images/yinyang.png" />
+        </button>
+    </form>
+</body>
+</html>
