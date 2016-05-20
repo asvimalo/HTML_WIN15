@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Flight booking</title>
+    <meta charset="utf-8" />
+    <style>
+        header {
+            background-color: #ff3399;
+            color:white;
+            margin: -10px 2px 1px 2px;
+            
+            height: 100px;
+            text-align:center;
+        }
+
+        fieldset {
+            background-color: #333333;
+            color: white;
+        }
+
+        #submit {
+            background-color: #ff3399;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FlightBooking</h1>
+    </header>
+    <fieldset>
+
+        <form>
+            <h3>Book your flight here</h3>
+            <hr />
+            Från:
+            <input name="Departure" list="Departure-Airport" />
+
+            <datalist id="Departure-Airport">
+
+                <option value="CPH"></option>
+                <option value="Stockholm"></option>
+                <option value="Madrid"></option>
+                <option value="LIS"></option>
+            </datalist>
+            To:
+            <input name="Arrival" list="Arrival-Airport" />
+
+            <datalist id="Arrival-Airport">
+
+                <option value="CPH"></option>
+                <option value="Stockholm"></option>
+                <option value="Madrid"></option>
+                <option value="LIS"></option>
+            </datalist>
+            Adult:
+            <select name="Vuxna">
+                <option label="1">1</option>
+                <option label="2">2</option>
+                <option label="3">3</option>
+                <option label="4">4</option>
+                <option label="5">5</option>
+            </select>
+            Kids:
+            <select name="Barn">
+                <option label="0">0</option>
+                <option label="1">1</option>
+                <option label="2">2</option>
+                <option label="3">3</option>
+                <option label="4">4</option>
+                <option label="5">5</option>
+            </select><br />
+            Avresedatum:
+            <input type="date" date-date-inline-picker="true" />
+            Hemaresadatum:
+            <input type="date" date-date-inline-picker="true" />
+            Sök på klass:
+            <select name="Class">
+                <option label="1st">First class</option>
+                <option label="Business">Business</option>
+                <option label="Mortals">Mortals</option>
+            </select>
+            Flygbolag/Allianser:
+            <select name="Flygbolag">
+                <optgroup label="Star Alliance">
+                    <option label="Lufthansa">Lufthansas</option>
+                    <option label="SAS">SAS</option>
+                    <option label="Continental">Continental</option>
+                </optgroup>
+                <optgroup label="One World">
+                    <option label="Iberia">Iberia</option>
+                    <option label="Air Europa">Air Europa</option>
+                </optgroup>
+            </select><br />
+
+
+            <input type="checkbox" name="Enkelresa" /> Enkelresa
+            <input type="checkbox" name="Direkresa" /> Direkresa<br />
+            <input type="checkbox" name="Hemresa" /> Hemresa från annan ort
+            <input type="checkbox" name="" /> Sök flexibelt
+            <input id="submit" type="submit" label="Boka resa" name="Boka Resa" />
+        </form>
+    </fieldset>
+
+</body>
+</html>
