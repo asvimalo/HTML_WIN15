@@ -1,0 +1,40 @@
+﻿body {
+    background-color: white;
+}
+#wrapper{
+    background-color: aliceblue;
+    max-width:960px;
+    min-width:600px;
+    margin: 30px auto;
+    border: 20px solid black;
+    padding:50px;
+    outline: 10px  #d8d2d2;
+}
+img:hover{
+    border-radius: 100%;
+}
+img {
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border: solid
+}
+article{
+    width:715px;
+    background-color: hotpink;
+    float:left;
+    border: 10px solid green;
+    display: inline-block;
+    border-radius:30px;
+}
+aside {
+    width:200px;
+    background-color: blue;
+    float:left;
+    border: 10px solid green;
+    border-radius:30px;
+
+}
+footer {
+    clear:both; 
+}
