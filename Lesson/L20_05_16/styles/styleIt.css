@@ -1,0 +1,36 @@
+﻿body {
+}
+
+#moving {
+    border-radius: 30%/20%;
+    border: 1px solid black;
+    background-color: rgba(150,150,150,.8);
+    width: 220px;
+    position: fixed; /*relative och absolut*/
+    right: 10px; /*right*/
+    bottom: 10px; /*bottom*/
+    box-shadow: 10px 10px 5px #888888;
+}
+
+aside#moving nav ul {
+    list-style-type: none;
+}
+
+#moving li {
+    border: 2px solid rgba(75, 83, 170, 0.87);
+    background-color: #4cff00;
+    width: 70%;
+    margin: 5px;
+    /*bosse*/
+    padding: 7px;
+    font-size: 1.4em;
+    border-radius: 5px;
+    outline: 2px solid #211b1b;
+}
+
+    #moving li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+        font-weight: bold; /*100-900 i jämna 100*/
+    }
