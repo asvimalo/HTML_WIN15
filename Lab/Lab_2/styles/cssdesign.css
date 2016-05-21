@@ -1,0 +1,40 @@
+﻿body {
+    background-color:azure;
+}
+#wrapper{
+    background-color:#4c4c4c;
+    margin: 10px 50px 0px 50px;
+
+}
+
+#headerdiv{
+    background-color:#000;
+    margin:5px inherit 5px inherit;
+    overflow:auto;
+    color:white;
+    
+}
+#headerdiv h3{
+    margin-left:75px;
+    font:600;
+}
+#headerdiv nav ul{
+    list-style-type: none;
+    
+    
+
+}
+#headerdiv li{
+    margin: -15px 0 auto 5px;
+    display:inline;
+    background-color:#424242;
+    color:white;
+    border: 2px solid white;
+    padding:7px;
+    width:5%;
+}
+#logo{
+    width:100px;
+    height:100px;
+    
+}
