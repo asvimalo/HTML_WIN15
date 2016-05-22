@@ -115,7 +115,7 @@
     <Content Include="images\Objective2.PNG" />
     <Content Include="images\Objective3.PNG" />
     <Content Include="styles\stylemainindex.css" />
-    <Content Include="test\index.html" />
+    <Content Include="pages\test\index.html" />
     <Content Include="pages\order.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
