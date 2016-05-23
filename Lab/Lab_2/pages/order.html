@@ -1,71 +1,84 @@
 ﻿<!doctype html>
 <html lang="en-gb">
-<head>
-    <meta />
-    <meta />
-    <meta />
-    <meta />
-</head>
-<body>
-    <h1>Ordered Items</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>ITEM</th>
-                <th>QUANTITY</th>
-                <th>PRICE</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Canon 5D</td>
-                <td>1</td>
-                <td>30 000 Kr</td>
-            </tr>
-            <tr>
-                <td>Canon 24-70 mm f2.8 L USM II</td>
-                <td>1</td>
-                <td>20 000 Kr</td>
-            </tr>
-        </tbody>
-    </table>
-    <br />
-    <hr />
-    <br />
-    <form action="recipe.html">
-        <fieldset>
-            <legend>User Info</legend>
-            <label for="username">Username </label><input name="username" placeholder="Username" autofocus tabindex="1"/><br />
-            <label for="email">Email </label><input name="email" type="email" placeholder="example@gmail.com" tabindex="1"/><br />
-            <label for="psw">Password </label><input name="psw" type="password" tabindex="1"/>
-        </fieldset>
-    
+    <head>
+        <meta charset="utf-8"/>
+        <meta />
+        <meta />
+        <meta />
+    </head>
+    <body>
+        <h1>Ordered Items</h1>
+        <table>
+            <thead>
+                <tr>
+                    
+                    <th>ORDERID</th>
+                    <th>ITEM</th>
+                    <th>QUANTITY</th>
+                    <th>PRICE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>123456</td>
+                    <td>Canon 5D</td>
+                    <td>1</td>
+                    <td>30 000 Kr</td>
+                </tr>
+                <tr>
+                    <td>123459</td>
+                    <td>Canon 24-70 mm f2.8 L USM II</td>
+                    <td>1</td>
+                    <td>20 000 Kr</td>
+                </tr>
+                
+            </tbody>
+           
+            <tfoot>
+                
+                <tr>
+                    <th>TOTAL</th>
+                    <td>50 000 Kr</td>
+                </tr>
+            </tfoot>
+        </table>
         <br />
-    
-        <fieldset>
-            <legend>Delivery address</legend>
-            <label>Name </label><input /><br />
-            <label>Street </label><input /><br />
-            <label>Zip </label><input /><br />
-            <label>Town </label><input /><br />
-            <label>Phone number </label><input />
-        </fieldset>
-    
+        <hr />
         <br />
+        <form action="receipt.html">
+            <fieldset>
+                <legend>User Info</legend>
+                <label for="username">Username </label><input name="username" placeholder="Username" autofocus tabindex="1"/><br />
+                <label for="email">Email </label><input name="email" type="email" placeholder="example@gmail.com" tabindex="1"/><br />
+                <label for="psw">Password </label><input name="psw" type="password" tabindex="1"/>
+            </fieldset>
     
-        <fieldset>
-            <legend>Payment Address</legend>
-            <label>Name </label><input /><br />
-            <label>Street </label><input /><br />
-            <label>Zip </label><input /><br />
-            <label>Town </label><input /><br />
-            <label>Phone number </label><input />
-        </fieldset>
+            <br />
+    
+            <fieldset>
+                <legend>Delivery address</legend>
+                <label>Name </label><input /><br />
+                <label>Street </label><input /><br />
+                <label>Zip </label><input /><br />
+                <label>Town </label><input /><br />
+                <label>Phone number </label><input />
+            </fieldset>
+    
+            <br />
+    
+            <fieldset>
+                <legend>Payment Address</legend>
+                <label>Name </label><input /><br />
+                <label>Street </label><input /><br />
+                <label>Zip </label><input /><br />
+                <label>Town </label><input /><br />
+                <label>Phone number </label><input />
+            </fieldset>
+            <br />
+            <label>Payment </label><input type="submit" name="Submit"/>
+        </form>
         <br />
-        <label>Payment </label><input type="submit" name="Submit"/>
-    </form>
-    <br />
-    <hr />
-    <br />
-</body>
+        <hr />
+        <br />
+    </body>
 </html>
