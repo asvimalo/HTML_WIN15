@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\Canon 5D.jpg" />
+    <Content Include="images\D3.jpg" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -107,7 +109,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\camera1.PNG" />
     <Content Include="images\camera2.PNG" />
     <Content Include="images\Camera3.PNG" />
     <Content Include="images\logodiafragm.PNG" />
