@@ -96,6 +96,7 @@
   <ItemGroup>
     <Content Include="images\Canon 5D.jpg" />
     <Content Include="images\D3.jpg" />
+    <Content Include="images\payment2.png" />
     <Content Include="images\return policy.jpg" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
