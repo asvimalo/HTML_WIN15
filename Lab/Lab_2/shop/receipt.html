@@ -16,21 +16,37 @@
             <fieldset>
                 <h3>Order number is: 5204790256</h3>
                 <p>You will receive an email confirmation shortly at wacamayo@gmail.com </p>
-                <p><a href="#Print">Print Receipt</a></p>
+                <form target="_blank" action="detailedReceipt.html">
+                    <input type="image" src="../images/print order button.png" alt="print order button." title="Print order" />
+                </form>
+                
             </fieldset>
         </article>
         <br />
         <aside>
             
                 <section>
-                    <fieldset>
-                        <p><a target="_blank" href="detailedReceipt.html">> Detailed Order Receipt</a></p>
-                    </fieldset>
+                    <form target="_blank" action="detailedReceipt.html">
+                        <fieldset>
+                            <button type="submit" >Detailed receipt</button>
+                        <!--<p><a target="_blank" href="detailedReceipt.html">> Detailed Order Receipt</a></p>-->
+                        </fieldset>
+                    </form>
                 </section>
                 <section>
-                    <fieldset>
-                        <p><a target="_blank" href="returnPolicy.html">> Return Policy</a></p>
-                    </fieldset>
+                    <form target="_blank" action="returnPolicy.html">
+                        <fieldset>
+                            <button>Return Policy</button>
+                            <!--<p><a target="_blank" href="returnPolicy.html">> Return Policy</a></p>-->
+                        </fieldset>
+                    </form>
+                </section>
+                <section>
+                    <form action="index.html">
+                        <fieldset>
+                            <button type="submit">Return to shop</button>
+                        </fieldset>
+                    </form>
                 </section>
             
         </aside>
