@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "css_12_Text", "css_12_Text\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "css_13_Boxes", "css_13_Boxes\css_13_Boxes.csproj", "{B22E7206-FB41-4D01-88BA-C54FDFF82F1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "css_14_lists_tables_forms", "css_14_lists_tables_forms\css_14_lists_tables_forms.csproj", "{F49AB98E-C7FA-472F-9E9C-6B631E9991FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B22E7206-FB41-4D01-88BA-C54FDFF82F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B22E7206-FB41-4D01-88BA-C54FDFF82F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B22E7206-FB41-4D01-88BA-C54FDFF82F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49AB98E-C7FA-472F-9E9C-6B631E9991FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49AB98E-C7FA-472F-9E9C-6B631E9991FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49AB98E-C7FA-472F-9E9C-6B631E9991FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49AB98E-C7FA-472F-9E9C-6B631E9991FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
