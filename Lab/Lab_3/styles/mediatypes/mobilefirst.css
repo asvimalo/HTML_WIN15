@@ -1,0 +1,41 @@
+﻿body {
+    max-width:480px;
+}
+header menu{
+
+}
+.menu{
+    width:60px;
+    height:60px;
+    
+}
+.menu div{
+    background-color:black;
+    width:50px;
+    height:5px;
+    margin: 5px 5px 5px 5px;
+    
+    /*border: solid black;*/
+}
+.menu span{
+    font-family: Arial, Verdane, sans-serif;
+    font-size: 1.2em;
+    color: black;
+    margin-left:5px;
+}
+.menu a:link{
+    text-decoration: none;
+    color: black;
+    
+}
+.menu:hover{
+    border-radius: 5px;
+    border:  1px solid gray;
+    -webkit-animation: shadow 5s;
+    animation: shadow 5s ;
+    
+    
+}
+@keyframes shadow{
+    50%{box-shadow:5px 5px 5px black}
+}

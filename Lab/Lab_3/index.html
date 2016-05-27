@@ -4,6 +4,8 @@
     <title>Lab 3</title>
     <meta charset="utf-8" />
     <link href="styles/mainpage.css" rel="stylesheet" type="text/css" />
+    <link href="styles/mainpage.css" rel="stylesheet" media="only screen and (max-width: 768px)" />
+    <link href="styles/mainpage.css" rel="stylesheet" media="only screen and (max-width: 480px)" />
 </head>
 <body>
     <div id="wrapper">
@@ -12,8 +14,9 @@
                 
                 <div id="nav">
                     <nav>
+                        <span>Cleber</span>
                         <ul>
-                            <li id="first"><a href="exercises/exercise1.html"><strong>Exercise 1</strong></a></li>
+                            <li id="first"><a href="exercises/mobileFirst.html"><strong>Mobile First</strong></a></li>
                             <li><a href="exercises/exercise2.html"><strong>Exercise 2</strong></a></li>
                             <li><a href="exercises/exercise3.html"><strong>Exercise 3</strong></a></li>
                             <li><a href="exercises/exercise4.html"><strong>Exercise 4</strong></a></li>
@@ -25,13 +28,15 @@
             </header>
         </div>
         <div id="image">
-            <p>
-                <img src="images/cssCover.PNG" />
-            </p>
+            <form target="_blank" action="docs/HTML and CSS design and build websites.pdf">
+                <input type="image" src="images/cssCover.PNG" title="Book" />
+                <!--<img src="images/cssCover.PNG" />-->
+            </form>
+            
         </div>
         <div id="blackfoot">
             <footer>
-
+                
             </footer>
         </div>
     </div>
