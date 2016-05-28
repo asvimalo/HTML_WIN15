@@ -94,6 +94,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="exercises\mobileFirstSites\one.html" />
+    <Content Include="exercises\mobileFirstSites\three.html" />
+    <Content Include="exercises\mobileFirstSites\two.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -108,20 +111,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="exercises\mobileFirst.html" />
-    <Content Include="exercises\exercise2.html" />
-    <Content Include="exercises\exercise3.html" />
-    <Content Include="exercises\exercise4.html" />
-    <Content Include="exercises\exercise5.html" />
-    <Content Include="exercises\exercise6.html" />
+    <Content Include="exercises\responsiveness.html" />
+    <Content Include="exercises\postit.html" />
+    <Content Include="exercises\IPhone.html" />
     <Content Include="images\cssCover.PNG" />
     <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="styles\mainpage.css" />
+    <Content Include="styles\mediatypes\iPhone.css" />
     <Content Include="styles\mediatypes\mobilefirst.css" />
-    <Content Include="styles\mediatypes\tablet.css" />
-    <Content Include="styles\mediatypes\mobil.css" />
-    <Content Include="styles\mediatypes\printer.css" />
+    <Content Include="styles\mediatypes\postIt.css" />
+    <Content Include="styles\mediatypes\responsiveness.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

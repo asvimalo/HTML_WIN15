@@ -1,12 +1,91 @@
 ﻿body {
+    min-width:300px;
     max-width:480px;
+    border: 1px solid black;      /*1*/
+    border-radius: 10px;
+    
 }
-header menu{
 
+@media only screen
+    and (min-device-width: 320px)
+     {
+    .div {
+        display: none;
+    }
+}
+
+
+
+.container{
+    background-color:#c9c7c7;
+    max-width:475px;
+    border-radius: 10px;          /*2*/
+    margin: 0px auto 0px auto;
+     
+}
+header {
+    background-color:aliceblue;
+    max-width: 460px;
+    min-width:300px;
+    height:100px;
+    margin: 5px auto 5px auto; /*3*/
+    border-radius: 10px;
+    border: 1px solid black;
+    display:flex;
+    
+}
+#title {
+    
+    width: 70px;
+    height:50px;
+    margin: 15px 0px 0px 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding:5px ;
+    text-align:center;
+    /*display:flex;*/
+} 
+#title span{
+    
+}
+
+.div {
+    width:300px;
+    height:60px;
+    
+    
+    margin-top: 10px;
+    margin: 15px 0px 0px 0px;
+}
+.div ul, li{
+
+    
+    display:flex;
+}
+.div ul{
+    margin:0;
+    padding:0;
+}
+.div li {
+    list-style-type: none;
+    width:98px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius:10px;
+    
+    
+    
+}
+.div a{
+    margin: 20px auto 20px auto;
+    text-align:center;
+    text-decoration:none;
 }
 .menu{
+    margin: 15px 5px 0px 0px;
     width:60px;
     height:60px;
+
     
 }
 .menu div{
@@ -23,19 +102,32 @@ header menu{
     color: black;
     margin-left:5px;
 }
+
 .menu a:link{
     text-decoration: none;
     color: black;
     
+    
 }
+
+.div li:hover{
+    border-radius: 5px;
+    border:  1px solid gray;
+    -webkit-animation: shadow1 5s;
+    animation: shadow1 5s ;
+}
+
 .menu:hover{
     border-radius: 5px;
     border:  1px solid gray;
-    -webkit-animation: shadow 5s;
-    animation: shadow 5s ;
+    -webkit-animation: shadow2 5s;
+    animation: shadow2 5s ;
     
     
 }
-@keyframes shadow{
+@keyframes shadow1{
+    50%{box-shadow:5px 5px 5px black}
+}
+@keyframes shadow2{
     50%{box-shadow:5px 5px 5px black}
 }
