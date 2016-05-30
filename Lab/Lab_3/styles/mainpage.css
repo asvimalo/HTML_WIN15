@@ -24,7 +24,12 @@ img {
 
 @media  (min-width: 320px) {
 
-    
+    #space1 {
+        display: none;  /*from main index*/
+    }
+    #space2 {
+        display: none; /*from main index*/
+    }
     #largemenu {
         display: none;
     }
@@ -48,7 +53,12 @@ img {
 
 @media  (min-width: 600px) {
 
-    
+     #space1 {
+        display: none;  /*from main index*/
+    }
+    #space2 {
+        display: none; /*from main index*/
+    }
     #largemenu {
         display: none;
     }
@@ -72,6 +82,13 @@ img {
 
 /*only screen and*/
 @media  (min-width: 768px) {
+
+     #space1 {
+        display: block;  /*from main index*/
+    }
+    #space2 {
+        display: block; /*from main index*/
+    }
 
      #largemenu {
         display: block;

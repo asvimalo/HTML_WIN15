@@ -123,7 +123,6 @@
     <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="video\Star Wars_ Revenge of the Sith - YouTube - Google Chrome 13_05_2016 12_26_41.mp4" />
     <Content Include="styles\mainpage.css" />
     <Content Include="styles\mediatypes\iPhone.css" />
     <Content Include="styles\mediatypes\mobilefirst.css" />
