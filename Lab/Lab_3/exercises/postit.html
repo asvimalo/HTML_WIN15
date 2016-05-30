@@ -3,27 +3,36 @@
 <head>
     <title>PostIt</title>
 	<meta charset="utf-8" />
+    <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
     <style>
         .post {
-            font-family: Arial;
-            padding: 50px;
-            width: 80px;
-            height: 80px;
-            position: relative;
+            font-family: 'Arizonia', Helvetica, sans-serif;
+            padding: 0px;
+            width: 245px;
+            height: 245px;
+            position: absolute;
             background-color: #ffd800;
-            box-shadow: 0 10px 20px 0px;
+            box-shadow: 20px 20px 50px gray;
             overflow: hidden;
-            wi
+            font-size:310%;
+            top:200px;
+            left:200px;
+            text-align: center;
+            transition: all 5s;
+            transform:  rotate(-10deg);
             
 
         }
         
         div:hover {
-            width: 110px;
-            height: 110px;
+            transform: rotate(20deg);
+            width:500px;
+            height: 500px;
             background-color: #4cff00;
-            position: relative;
+            position: absolute;
             box-shadow: 0 10px 20px 0px;
+            left: 700px;
+            
         }
         div span:hover {
             visibility:visible;
