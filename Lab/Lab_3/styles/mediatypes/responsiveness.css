@@ -1,2 +1,57 @@
-﻿body {
+﻿
+body { background-color: #b2afaf;}
+
+#comp {
+    display: block;
+    font-family: Arial,Verdana,sans-serif;
+    text-align: center;
+}
+#tablet { display: none;
+        font-family:Arial,Verdana,sans-serif;
+         text-align: center;
+}
+#phone { display:none;
+         font-family:Arial,Verdana,sans-serif;
+         text-align: center;
+}
+#printer { display: none;
+         font-family:Arial,Verdana,sans-serif;
+         text-align: center;
+}
+
+@media only screen and (max-width:768px) {
+
+ body { background-color: #ed4242;}
+       
+
+#comp { display: none;}
+#tablet{ display: block;}
+#phone { display:none;}
+#printer { display: none;}
+
+}
+
+@media  only screen and (max-width: 480px) {
+
+body { background-color: #9b01bc;
+       
+}
+
+#comp { display: none;}
+#tablet{ display: none;}
+
+#phone { display:block;}
+#printer { display: none;}
+
+}
+
+@media print {
+
+body { background-color: white;}
+
+#comp { display: none;}
+#tablet{ display: none;}
+#phone { display:none;}
+#printer { display: block;}
+
 }

@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LBoostrap_Exercise", "LBoos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LBootstrap_Exercise2", "LBootstrap_Exercise2\LBootstrap_Exercise2.csproj", "{DD65B38A-789C-41CB-9B5E-E0730A258AAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L30_05_16_Animation", "L30_05_16_Animation\L30_05_16_Animation.csproj", "{77B67D0C-EC36-48CF-9AFC-7B71D779C833}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{DD65B38A-789C-41CB-9B5E-E0730A258AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD65B38A-789C-41CB-9B5E-E0730A258AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD65B38A-789C-41CB-9B5E-E0730A258AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B67D0C-EC36-48CF-9AFC-7B71D779C833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B67D0C-EC36-48CF-9AFC-7B71D779C833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B67D0C-EC36-48CF-9AFC-7B71D779C833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B67D0C-EC36-48CF-9AFC-7B71D779C833}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

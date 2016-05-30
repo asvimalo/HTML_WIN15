@@ -1,0 +1,46 @@
+﻿.menu{
+    background-color: black;
+    margin: 15px 5px 0px 0px;
+    width:60px;
+    height:40px;
+
+    
+}
+.menu div{
+    background-color:white;
+    width:50px;
+    height:5px;
+    margin: 5px 5px 5px 5px;
+    
+    /*border: solid black;*/
+}
+.menu span{
+    font-family: Arial, Verdane, sans-serif;
+    font-size: 1.2em;
+    color: black;
+    margin-left:5px;
+}
+
+.menu a:link{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+
+
+
+.menu:hover{
+    border-radius: 5px;
+    border:  1px solid grey;
+    -webkit-animation: shadow2 5s;
+    animation: shadow2 5s ;
+    
+    
+}
+
+@keyframes shadow2{
+    50%{box-shadow:5px 5px 5px white}
+
+}

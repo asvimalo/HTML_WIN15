@@ -1,133 +1,124 @@
-﻿body {
-    min-width:300px;
-    max-width:480px;
-    border: 1px solid black;      /*1*/
-    border-radius: 10px;
-    
-}
-
-@media only screen
-    and (min-device-width: 320px)
-     {
-    .div {
-        display: none;
+﻿@media only screen and (min-device-width: 320px) {
+    /*and (max-device-width:667px)*/
+    /*and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio:2)*/ /*{*/
+    body {
     }
+
+    .container {
+        border: 10px solid #524d4d;
+    }
+
+    .order {
+        width:100%;
+        display: inline-flex;
+    }
+    .order #title {
+        width: 70%;
+    }
+
+    #title {
+        
+        background-color: black;
+        text-align: center;
+        padding: 5%;
+
+    }
+
+        #title span {
+            color: white;
+            font-family: fantasy;
+            padding: 5%;
+            font-size: 200%;
+        }
+
+    #imageBackground {
+        width:100%;
+        height:270px;
+        /*min-width:10%;
+        height:30%;*/
+        
+        background-image: url('../../images/TheWebFR.jpg');
+        background-repeat:no-repeat;
+        background-size: contain;
+        background-size: cover;
+    }
+
+    .div ul {
+        display: block;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .div li {
+        background-color: black;
+        
+        font-family: fantasy;
+        text-align: center;
+        padding: 1%;
+    }
+    .div a {
+        color: white;
+        font-weight: 500;
+    }
+
+    .div a:link {
+        text-decoration: none;
+    }
+
+    .div li:hover {
+        border: 1px solid gray;
+        -webkit-animation: shadow1 5s;
+        animation: shadow1 5s;
+        background-color: #3d013e;
+    }
+
+    .div li:focus {
+        border: 1px solid gray;
+        -webkit-animation: shadow1 5s;
+        animation: shadow1 5s;
+        background-color: #3d013e;
+    }
+    @keyframes shadow1{
+    50%{box-shadow :5px 5px 5px 5px #a204de}
+}
+}
+}
+/*@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 667px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio:2){
+
 }
 
+@media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio:2){
 
+}
+@media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio:2){
 
-.container{
-    background-color:#c9c7c7;
-    max-width:475px;
-    border-radius: 10px;          /*2*/
-    margin: 0px auto 0px auto;
-     
-}
-header {
-    background-color:aliceblue;
-    max-width: 460px;
-    min-width:300px;
-    height:100px;
-    margin: 5px auto 5px auto; /*3*/
-    border-radius: 10px;
-    border: 1px solid black;
-    display:flex;
-    
-}
-#title {
-    
-    width: 70px;
-    height:50px;
-    margin: 15px 0px 0px 5px;
-    border-radius: 10px;
-    border: 1px solid black;
-    padding:5px ;
-    text-align:center;
-    /*display:flex;*/
-} 
-#title span{
-    
 }
 
-.div {
-    width:300px;
-    height:60px;
-    
-    
-    margin-top: 10px;
-    margin: 15px 0px 0px 0px;
-}
-.div ul, li{
+@media  screen 
+    and (min-device-width: 1280px) 
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio:1){
 
-    
-    display:flex;
 }
-.div ul{
-    margin:0;
-    padding:0;
-}
-.div li {
-    list-style-type: none;
-    width:98px;
-    height: 60px;
-    border: 1px solid black;
-    border-radius:10px;
-    
-    
-    
-}
-.div a{
-    margin: 20px auto 20px auto;
-    text-align:center;
-    text-decoration:none;
-}
-.menu{
-    margin: 15px 5px 0px 0px;
-    width:60px;
-    height:60px;
+@media  screen 
+    and (min-device-width: 1280px) 
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio:2)
+    and (min-resolution: 192dpi){
 
-    
-}
-.menu div{
-    background-color:black;
-    width:50px;
-    height:5px;
-    margin: 5px 5px 5px 5px;
-    
-    /*border: solid black;*/
-}
-.menu span{
-    font-family: Arial, Verdane, sans-serif;
-    font-size: 1.2em;
-    color: black;
-    margin-left:5px;
-}
+}*/
 
-.menu a:link{
-    text-decoration: none;
-    color: black;
-    
-    
-}
-
-.div li:hover{
-    border-radius: 5px;
-    border:  1px solid gray;
-    -webkit-animation: shadow1 5s;
-    animation: shadow1 5s ;
-}
-
-.menu:hover{
-    border-radius: 5px;
-    border:  1px solid gray;
-    -webkit-animation: shadow2 5s;
-    animation: shadow2 5s ;
-    
-    
-}
-@keyframes shadow1{
-    50%{box-shadow:5px 5px 5px black}
-}
-@keyframes shadow2{
-    50%{box-shadow:5px 5px 5px black}
-}

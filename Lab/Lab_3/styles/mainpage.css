@@ -2,28 +2,31 @@
     background-color: white;
 }
 #wrapper {
-    max-width:1280px;
-    max-height: 1080px;
-    min-width: 640px;
-    min-height: 480px;
+    max-width:100%;
+    max-height: 100%;
+    min-width: 65%;
+    min-height: 65%;
     background-color:aliceblue;
-    margin: 2px auto 20px auto ;
+    margin: 0px;
 }
 #header  {
     background-color: black; 
     text-align:center;
-    padding: 20px;
+    padding: 0.0%;
     
 }
 
 nav {
     color: white;
     margin-left: auto;
-    margin-right:40px;
+    /*margin-right:40px;*/
 }
 nav span{
     float:left;
     clear:left;
+    margin: 1% 0% auto 1%;
+    font-size: 2em;
+    font-family: fantasy;
 }
 
 li {
@@ -44,12 +47,14 @@ li {
     border-left: 3px groove white;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
+    margin-left:0px;
 }
 
 #last {
     border-right: 3px groove white;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    margin-right:0px;
 }
 
 li:hover {
@@ -113,32 +118,32 @@ a:visited {
     margin: 2px auto 20px auto ;
 }
 #header  {
-    background-color: black; 
+    background-color: #232323; 
     text-align:center;
     padding: 20px;
     
 }
 
 nav {
-    margin-left: auto;
-    margin-right:40px;
+    margin:0px;
+    padding:0px;
 }
 
 li {
     background-color: #42a8f1;
     list-style-type: none;
-    display: inline-flex;   
-    border-bottom: 3px solid white;
-    border-top: 3px solid white; 
-    border: 1px solid white;    
+    display: flex;   
+    /*border-bottom: 3px solid white;
+    border-top: 3px solid white;*/ 
+    border: 1px solid #414141;    
     padding: 100px;
-    margin-right: -2.5px;
-    margin-left: -2.5px;
+    /*margin-right: -2.5px;
+    margin-left: -2.5px;*/
     
     
 
 }
-#first {
+/*#first {
     border-left: 3px groove white;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
@@ -148,7 +153,7 @@ li {
     border-right: 3px groove white;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-}
+}*/
 
 li:hover {
     background-color: #520458;
@@ -157,7 +162,7 @@ li:hover {
 a:link {
     text-decoration: none;  
     color:white;
-    font-family: Arial, Verdana, sans-serif;
+    font-family: fantasy, sans-serif;
 }
 a:visited {
     color: white;
@@ -224,6 +229,7 @@ nav {
 }
 
 li {
+    display:none;
     background-color: #42a8f1;
     list-style-type: none;
     display: inline-flex;   
