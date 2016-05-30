@@ -3,40 +3,53 @@
 <head>
     <title>Lab 3</title>
     <meta charset="utf-8" />
-    <link href="styles/mainpage.css" rel="stylesheet" type="text/css" />
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/mediatypes/mobilFirst_grid.css" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
-    <div id="wrapper">
-        <div id="header">
-            <header>
-                
-                <div id="nav">
-                    <nav>
-                        <span>LAB III</span>
-                        <ul>
-                            <li id="first"><a href="exercises/responsiveness.html"><strong>Responsive</strong></a></li>
-                            <li><a href="exercises/mobilFirstII.html"><strong>Mobile First</strong></a></li>
-                            <li><a href="exercises/postit.html"><strong>Postit</strong></a></li>
-                            <li id="last"><a href="exercises/IPhone.html"><strong>IPhone</strong></a></li>
-                            
-                        </ul>
-                    </nav>
-                </div>
-            </header>
+
+
+    <header class="col-md-12">
+        <h1 >LAB III</h1>
+    </header>
+
+    <div id="largemenu" class="row ">
+        <nav>
+            <ul>
+                <li class="col-md-3"><a href="exercises/responsiveness.html">Responsive</a></li>
+                <li class="col-md-3"><a href="exercises/mobilFirstII.html">Mobile First</a></li>
+                <li class="col-md-3"><a href="exercises/postit.html">Postit</a></li>
+                <li class="col-md-3"><a href="exercises/IPhone.html">IPhone</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    <div  class="row">
+        <div id="shortmenu">
+            <nav class="col-sm-6 col-xm-12">
+                <ul>
+                    <li><a href="exercises/responsiveness.html">Responsive</a></li>
+                    <li><a href="exercises/mobilFirstII.html">Mobile First</a></li>
+                    <li><a href="exercises/postit.html">Postit</a></li>
+                    <li><a href="exercises/IPhone.html">IPhone</a></li>
+                </ul>
+            </nav>
         </div>
-        <div id="image">
-            <form target="_blank" action="docs/HTML and CSS design and build websites.pdf">
-                <input type="image" src="images/cssCover.PNG" title="Book" />
-                <!--<img src="images/cssCover.PNG" />-->
-            </form>
-            
-        </div>
-        <div id="blackfoot">
-            <footer>
-                
-            </footer>
+        <div class="col-sm-6 col-md-6">
+            <!--<form target="_blank" action="docs/HTML and CSS design and build websites.pdf">-->
+                <!--<input type="image" src="images/cssCover.PNG" title="Book" />-->
+                <a href="docs/HTML and CSS design and build websites.pdf"><img src="images/cssCover.PNG" /></a>
+            <!--</form>-->
         </div>
     </div>
+
+    <footer class="col-md-12">
+        <div >
+            <small>Andrés Martinez-Losa de Vilhena &copy;2016</small>
+        </div>
+    </footer>
+
+
 </body>
 </html>
