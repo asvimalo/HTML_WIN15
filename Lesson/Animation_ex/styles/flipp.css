@@ -1,0 +1,60 @@
+﻿body {
+    background-color: #000000;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+ .card  {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition:  transform 2s;
+    
+
+}
+
+.container .card figure {
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   
+    backface-visibility: hidden;
+
+}
+
+@keyframes rotating {
+    from { transform: rotate(180deg)}
+    to { transform: rotate(360deg)}
+}
+.rotating {
+    animation: rotating 2s linear infinite;
+}
+
+
+.card .back {
+    transform: rotateY(180deg);
+   
+}
+.card:hover {
+    transform: rotateY(180deg);
+    animation: rotating 2s linear infinite;
+}
+ .two .card:hover {
+     transform: rotateX(180deg);
+     animation: rotating 2s linear infinite;
+
+ }

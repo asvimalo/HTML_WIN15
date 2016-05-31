@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{DF2C1045-146E-4EC7-A512-0859A89FB99B}</ProjectGuid>
+    <ProjectGuid>{FA51D522-E582-45CA-8C2A-37E00EAE7D08}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lab_3</RootNamespace>
-    <AssemblyName>Lab_3</AssemblyName>
+    <RootNamespace>Animation_ex</RootNamespace>
+    <AssemblyName>Animation_ex</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -94,42 +94,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="exercises\mobileFirstSites\one.html" />
-    <Content Include="exercises\mobileFirstSites\three.html" />
-    <Content Include="exercises\mobileFirstSites\two.html" />
-    <Content Include="exercises\mobilFirstII.html" />
-    <Content Include="images\artistic-images-1.jpg" />
-    <Content Include="images\artistic-lips_2.jpg" />
-    <Content Include="images\art_4.jpg" />
-    <Content Include="images\Holi _colours_3.jpg" />
-    <Content Include="images\iphoneimages\apple_store.jpg" />
-    <Content Include="images\iphoneimages\background.jpg" />
-    <Content Include="images\iphoneimages\calendar.png" />
-    <Content Include="images\iphoneimages\calls.jpg" />
-    <Content Include="images\iphoneimages\cam.jpg" />
-    <Content Include="images\iphoneimages\claoud.jpg" />
-    <Content Include="images\iphoneimages\fb.jpg" />
-    <Content Include="images\iphoneimages\images.png" />
-    <Content Include="images\iphoneimages\instagram.jpg" />
-    <Content Include="images\iphoneimages\itunes.jpg" />
-    <Content Include="images\iphoneimages\maps.png" />
-    <Content Include="images\iphoneimages\message2.jpg" />
-    <Content Include="images\iphoneimages\radar.jpg" />
-    <Content Include="images\iphoneimages\remote.jpg" />
-    <Content Include="images\iphoneimages\safari.jpg" />
-    <Content Include="images\iphoneimages\skype.jpg" />
-    <Content Include="images\iphoneimages\spotify.jpg" />
-    <Content Include="images\iphoneimages\twitter.jpg" />
-    <Content Include="images\iphoneimages\viber.jpg" />
-    <Content Include="images\iphoneimages\wf.jpg" />
-    <Content Include="images\iphoneimages\whatsup.jpg" />
-    <Content Include="images\logodiafragm.PNG" />
-    <Content Include="images\The-Lab-Logo.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="docs\HTML and CSS design and build websites.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -138,20 +106,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="exercises\responsiveness.html" />
-    <Content Include="exercises\postit.html" />
-    <Content Include="exercises\IPhone.html" />
-    <Content Include="images\cssCover.PNG" />
+    <Content Include="images\back_card.jpg" />
+    <Content Include="images\card.png" />
     <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="styles\mainpage.css" />
-    <Content Include="styles\mediatypes\iPhone.css" />
-    <Content Include="styles\mediatypes\mobilefirst.css" />
-    <Content Include="styles\mediatypes\postIt.css" />
-    <Content Include="styles\mediatypes\responsiveness.css" />
-    <Content Include="styles\mediatypes\mobilFirst_grid.css" />
-    <Content Include="styles\tools\menuButton.css" />
+    <Content Include="styles\flipp.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -170,9 +130,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>51043</DevelopmentServerPort>
+          <DevelopmentServerPort>34874</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:51043/</IISUrl>
+          <IISUrl>http://localhost:34874/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

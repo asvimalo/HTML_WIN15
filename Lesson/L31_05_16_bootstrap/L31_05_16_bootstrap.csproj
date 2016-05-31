@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{DF2C1045-146E-4EC7-A512-0859A89FB99B}</ProjectGuid>
+    <ProjectGuid>{77016368-A2E4-4B45-8421-3E6CA2DFC04C}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lab_3</RootNamespace>
-    <AssemblyName>Lab_3</AssemblyName>
+    <RootNamespace>L31_05_16_bootstrap</RootNamespace>
+    <AssemblyName>L31_05_16_bootstrap</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -94,42 +94,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="exercises\mobileFirstSites\one.html" />
-    <Content Include="exercises\mobileFirstSites\three.html" />
-    <Content Include="exercises\mobileFirstSites\two.html" />
-    <Content Include="exercises\mobilFirstII.html" />
-    <Content Include="images\artistic-images-1.jpg" />
-    <Content Include="images\artistic-lips_2.jpg" />
-    <Content Include="images\art_4.jpg" />
-    <Content Include="images\Holi _colours_3.jpg" />
-    <Content Include="images\iphoneimages\apple_store.jpg" />
-    <Content Include="images\iphoneimages\background.jpg" />
-    <Content Include="images\iphoneimages\calendar.png" />
-    <Content Include="images\iphoneimages\calls.jpg" />
-    <Content Include="images\iphoneimages\cam.jpg" />
-    <Content Include="images\iphoneimages\claoud.jpg" />
-    <Content Include="images\iphoneimages\fb.jpg" />
-    <Content Include="images\iphoneimages\images.png" />
-    <Content Include="images\iphoneimages\instagram.jpg" />
-    <Content Include="images\iphoneimages\itunes.jpg" />
-    <Content Include="images\iphoneimages\maps.png" />
-    <Content Include="images\iphoneimages\message2.jpg" />
-    <Content Include="images\iphoneimages\radar.jpg" />
-    <Content Include="images\iphoneimages\remote.jpg" />
-    <Content Include="images\iphoneimages\safari.jpg" />
-    <Content Include="images\iphoneimages\skype.jpg" />
-    <Content Include="images\iphoneimages\spotify.jpg" />
-    <Content Include="images\iphoneimages\twitter.jpg" />
-    <Content Include="images\iphoneimages\viber.jpg" />
-    <Content Include="images\iphoneimages\wf.jpg" />
-    <Content Include="images\iphoneimages\whatsup.jpg" />
-    <Content Include="images\logodiafragm.PNG" />
-    <Content Include="images\The-Lab-Logo.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="docs\HTML and CSS design and build websites.pdf" />
+    <Content Include="scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -138,25 +107,38 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="exercises\responsiveness.html" />
-    <Content Include="exercises\postit.html" />
-    <Content Include="exercises\IPhone.html" />
-    <Content Include="images\cssCover.PNG" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\artistic-images-1.jpg" />
+    <Content Include="images\artistic-lips_2.jpg" />
+    <Content Include="images\art_4.jpg" />
+    <Content Include="images\Holi _colours_3.jpg" />
     <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="styles\mainpage.css" />
-    <Content Include="styles\mediatypes\iPhone.css" />
-    <Content Include="styles\mediatypes\mobilefirst.css" />
-    <Content Include="styles\mediatypes\postIt.css" />
-    <Content Include="styles\mediatypes\responsiveness.css" />
-    <Content Include="styles\mediatypes\mobilFirst_grid.css" />
-    <Content Include="styles\tools\menuButton.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\jquery-1.9.1.js" />
+    <Content Include="scripts\jquery-1.9.1.min.js" />
+    <Content Include="styles\flipp.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -170,9 +152,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>51043</DevelopmentServerPort>
+          <DevelopmentServerPort>2270</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:51043/</IISUrl>
+          <IISUrl>http://localhost:2270/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -1,0 +1,51 @@
+﻿body {
+    background-color: #72108f;
+}
+
+/*3D animation runs in a container that we style
+    fast size doesn't change the other fields
+*/
+.container {
+    width: 200px;
+    height: 200px;
+    position: relative; /*Allways same place*/
+    font-size: 7rem;
+    text-align: center;
+    background-color: red;
+}
+
+.card {
+    width:100%;
+    height:100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    /*Preserv 3D motverkar att ytan minskas i 2D och sen ökas i en fäkades 3D*/
+    transition: transform 1s;
+}
+/*Beskriver hur korten ska visas*/
+.container .card figure {
+    margin: 0;
+    display: block;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+
+}
+/*Färgsätter backsidan*/
+.card  .front {
+    background-color: honeydew;
+}
+
+.card .back {
+    background-color: coral;
+    transform: rotateY(180deg);
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.two .card:hover {
+    transform: rotateX(180deg);
+}
