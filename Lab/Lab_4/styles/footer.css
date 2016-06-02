@@ -1,0 +1,14 @@
+﻿@import url("../css/font-awesome.css");
+
+body {
+}
+
+footer {
+    background-color: black;
+    padding: 5%;
+    color: white;
+}
+
+footer .glyphicon {
+    color: white;
+}

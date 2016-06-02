@@ -1,0 +1,16 @@
+﻿
+
+.navbar {
+    opacity: 1;
+}
+
+
+.navbar-brand {
+    font: 16px 'Berkshire Swash', Helvetica, sans-serif;
+    
+}
+
+.navbar-nav li:hover {
+    background-color: #0f90ec;
+}
+
