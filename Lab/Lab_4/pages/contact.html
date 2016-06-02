@@ -7,38 +7,121 @@
     <meta name="description" content="" />
     <meta name="author" content="Andrés Martinez-Losa de Vilhena" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="Content/bootstrap.css" rel="stylesheet" />
-    <script src="scripts/bootstrap.js"></script>
-    <script src="scripts/jquery-1.9.1.js"></script>
+    <link href="../css/font-awesome.css" rel="stylesheet" />
+    <link href="../css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../styles/contact.css" rel="stylesheet" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+    <script src="../scripts/jquery-1.9.1.min.js"></script>
+    <script src="../scripts/bootstrap.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="../scripts/googlemaps.js"> </script>
+    <style>
+        @import url("navigation.css");
+        @import url("footer.css");
+
+        .jumbotron {
+            padding: 100px 25px;
+            
+            
+        }
+        h2 {
+            padding: 20px;
+        }
+
+        #googleMap {
+            width: 100%;
+            height: 400px;
+           
+        }
+    </style>
 </head>
+
 <body>
+
     <header>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="nav navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="#" class="navbar-brand">Pax Resort</a>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="pages/dreamphotos.html">Gallerie</a></li>
-                        <li><a href="pages/videosnap.html">Video Snap</a></li>
-                        <li><a href="pages/theMaldiveGame.html">Game</a></li>
-                        <li><a href="pages/reception_staff.html">Reception</a></li>
-                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                    </ul>
+        <nav>
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="nav navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#" class="navbar-brand">Pax Resort</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="dreamphotos.html">Galerie</a></li>
+                            <li><a href="videosnap.html">Video Snap</a></li>
+                            <li><a href="theMaldiveGame.html">Game</a></li>
+                            <li><a href="reception_staff.html">Reception</a></li>
+                            <li class="active"><a href="contact.html">Contact</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
 
-    <article></article>
-    <aside></aside>
-    <footer></footer>
+    <article class="container">
+        <div class="jumbotron">
+            <h2 class="text-center">CONTACT</h2>
+            <div class="row">
+                <div class="col-sm-5">
+                    <p>Contact us and we'll get back to you within 24 hours</p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span> Maldives, MA</p>
+                    <p><span class="glyphicon glyphicon-phone"></span> + 960 040525636</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span> paxresort@pr.ma</p>
+                </div>
+                <div class="col-sm-7">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" type="text" name="name" placeholder="Name" required />
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" type="email" name="email" placeholder="Email" required />
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comments" rows="5"></textarea><br />
+
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button class="btn btn-primary btn-lg pull-right">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <aside>
+        <div id="googleMap"></div>
+
+
+
+    </aside>
+    <footer class="container-fluid">
+        <div class="col-md-6 text-center">
+            <address>
+                Malvines<br />
+                40 Av India<br />
+                Tel: + 960 040525636<br />
+            </address>
+        </div>
+        <a href="dreamphotos.html" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+        <div class="col-md-6 social text-center">
+            <a href="https://www.facebook.com/"><span class="glyphicon gly"></span></a>
+            <a href="https://www.instagram.com/"><span class="fa-instagram"></span></a>
+            <a href="https://twitter.com/"><span class="fa-twitter"></span></a>
+            <a href="https://www.facebook.com/"><span class="fa-linkedin"></span></a>
+        </div>
+    </footer>
 </body>
+
+
 </html>

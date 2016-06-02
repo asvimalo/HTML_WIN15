@@ -136,6 +136,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="scripts\googlemaps.js" />
     <Content Include="scripts\jquery-1.9.1.min.map" />
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
@@ -187,10 +188,14 @@
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\jquery-1.9.1.js" />
     <Content Include="scripts\jquery-1.9.1.min.js" />
+    <Content Include="styles\contact.css" />
     <Content Include="styles\footer.css" />
     <Content Include="styles\galerie.css" />
+    <Content Include="styles\game.css" />
     <Content Include="styles\mainstruct.css" />
     <Content Include="styles\navigation.css" />
+    <Content Include="styles\staff.css" />
+    <Content Include="styles\video.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
