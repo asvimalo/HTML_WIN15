@@ -1,0 +1,33 @@
+﻿body {
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+
+    
+    
+}
+
+.main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.row {
+    padding: 30px;
+}
+.album {
+    padding:15px;
+}
+
+.picture {
+
+}
+img {
+
+}
