@@ -94,10 +94,44 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\and more.jpg" />
+    <Content Include="images\beach2.jpg" />
+    <Content Include="images\big one.jpg" />
+    <Content Include="images\boat.jpg" />
+    <Content Include="images\boat3.jpg" />
+    <Content Include="images\buceo.jpg" />
+    <Content Include="images\coral.jpg" />
+    <Content Include="images\coral2.jpg" />
+    <Content Include="images\deep fish 2.jpg" />
+    <Content Include="images\deep fishes.jpg" />
+    <Content Include="images\dive.jpg" />
+    <Content Include="images\estrellas.jpg" />
+    <Content Include="images\fishes2.jpg" />
+    <Content Include="images\glowing maldives beach.jpg" />
+    <Content Include="images\gruta.jpg" />
+    <Content Include="images\havesomefun.jpg" />
+    <Content Include="images\HDpan.jpg" />
+    <Content Include="images\HDpan2.jpg" />
+    <Content Include="images\hotel2.jpg" />
+    <Content Include="images\hotel3.jpg" />
+    <Content Include="images\hotel4.jpg" />
+    <Content Include="images\island resort.jpg" />
+    <Content Include="images\mariage2.jpg" />
+    <Content Include="images\more fishes.jpg" />
+    <Content Include="images\pan3.jpg" />
+    <Content Include="images\pandark.jpg" />
+    <Content Include="images\pano2.jpg" />
+    <Content Include="images\panresort.jpg" />
+    <Content Include="images\rayas.jpg" />
+    <Content Include="images\resort3.jpg" />
+    <Content Include="images\Top2.jpg" />
+    <Content Include="images\tortuga.jpg" />
+    <Content Include="images\what.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -106,6 +140,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\beach1.jpg" />
     <Content Include="images\boathotel2.jpg" />
     <Content Include="images\Cocoa-Island-Hotels-Resorts-The-Maldives-500x339.jpg" />
@@ -125,6 +164,19 @@
     <Content Include="pages\videosnap.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\jquery-1.9.1.js" />
+    <Content Include="scripts\jquery-1.9.1.min.js" />
     <Content Include="styles\mainstruct.css" />
     <Content Include="Web.config" />
   </ItemGroup>
