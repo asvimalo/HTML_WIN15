@@ -105,6 +105,7 @@
     <Content Include="images\boat.jpg" />
     <Content Include="images\boat3.jpg" />
     <Content Include="images\buceo.jpg" />
+    <Content Include="images\coral-reef-wallpapers-34.jpeg" />
     <Content Include="images\coral.jpg" />
     <Content Include="images\coral2.jpg" />
     <Content Include="images\deep fish 2.jpg" />
@@ -129,8 +130,11 @@
     <Content Include="images\panresort.jpg" />
     <Content Include="images\rayas.jpg" />
     <Content Include="images\resort3.jpg" />
+    <Content Include="images\scuba_diver.png" />
+    <Content Include="images\Stonefish-Sprite.png" />
     <Content Include="images\Top2.jpg" />
     <Content Include="images\tortuga.jpg" />
+    <Content Include="gif\vammmm.gif" />
     <Content Include="images\what.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -201,7 +205,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="video\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
