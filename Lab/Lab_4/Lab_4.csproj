@@ -107,11 +107,13 @@
     <Content Include="images\buceo.jpg" />
     <Content Include="images\coral-reef-wallpapers-34.jpeg" />
     <Content Include="images\coral.jpg" />
+    <Content Include="images\coral.png" />
     <Content Include="images\coral2.jpg" />
     <Content Include="images\deep fish 2.jpg" />
     <Content Include="images\deep fishes.jpg" />
     <Content Include="images\dive.jpg" />
     <Content Include="images\estrellas.jpg" />
+    <Content Include="images\FC3_cutout_morayael.png" />
     <Content Include="images\fishes2.jpg" />
     <Content Include="images\glowing maldives beach.jpg" />
     <Content Include="images\gruta.jpg" />
@@ -122,6 +124,7 @@
     <Content Include="images\hotel3.jpg" />
     <Content Include="images\hotel4.jpg" />
     <Content Include="images\island resort.jpg" />
+    <Content Include="images\lemon shark sm.png" />
     <Content Include="images\mariage2.jpg" />
     <Content Include="images\more fishes.jpg" />
     <Content Include="images\pan3.jpg" />
@@ -130,6 +133,8 @@
     <Content Include="images\panresort.jpg" />
     <Content Include="images\rayas.jpg" />
     <Content Include="images\resort3.jpg" />
+    <Content Include="images\rockMag.png" />
+    <Content Include="images\sand.png" />
     <Content Include="images\scuba_diver.png" />
     <Content Include="images\Stonefish-Sprite.png" />
     <Content Include="images\Top2.jpg" />
