@@ -111,6 +111,7 @@
     <Content Include="images\coral2.jpg" />
     <Content Include="images\deep fish 2.jpg" />
     <Content Include="images\deep fishes.jpg" />
+    <Content Include="images\dicaprio.jpg" />
     <Content Include="images\dive.jpg" />
     <Content Include="images\estrellas.jpg" />
     <Content Include="images\FC3_cutout_morayael.png" />
@@ -127,11 +128,14 @@
     <Content Include="images\lemon shark sm.png" />
     <Content Include="images\mariage2.jpg" />
     <Content Include="images\more fishes.jpg" />
+    <Content Include="images\obama.jpg" />
     <Content Include="images\pan3.jpg" />
     <Content Include="images\pandark.jpg" />
     <Content Include="images\pano2.jpg" />
     <Content Include="images\panresort.jpg" />
+    <Content Include="images\Pulp fiction.jpg" />
     <Content Include="images\rayas.jpg" />
+    <Content Include="images\reception.jpg" />
     <Content Include="images\resort3.jpg" />
     <Content Include="images\rockMag.png" />
     <Content Include="images\sand.png" />
