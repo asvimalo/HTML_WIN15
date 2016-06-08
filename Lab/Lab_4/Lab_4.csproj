@@ -136,16 +136,19 @@
     <Content Include="images\rockMag.png" />
     <Content Include="images\sand.png" />
     <Content Include="images\scuba_diver.png" />
+    <Content Include="images\stanford-live-video-frame.png" />
     <Content Include="images\Stonefish-Sprite.png" />
     <Content Include="images\Top2.jpg" />
     <Content Include="images\tortuga.jpg" />
-    <Content Include="gif\vammmm.gif" />
+    <Content Include="images\tv-frame2.png" />
     <Content Include="images\what.jpg" />
+    <Content Include="music\ocean-waves-1.mp3" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="scripts\googlemaps.js" />
+    <Content Include="scripts\myScripts\canvas.js" />
+    <Content Include="scripts\myScripts\googlemaps.js" />
     <Content Include="scripts\jquery-1.9.1.min.map" />
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
