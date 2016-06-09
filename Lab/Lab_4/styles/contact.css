@@ -16,3 +16,16 @@
            
         }
 
+        #happy img, #normal img, #sad img {
+            display: none;
+
+        }
+
+ #happy img:visited, #normal img:visited, #sad img:visited  {
+    display: inline;
+}
+
+
+
+
+

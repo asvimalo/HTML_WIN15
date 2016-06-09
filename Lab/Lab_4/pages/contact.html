@@ -10,14 +10,22 @@
     <link href="../styles/contact.css" rel="stylesheet" />
     <link href="../css/font-awesome.css" rel="stylesheet" />
     <link href="../css/font-awesome.min.css" rel="stylesheet" />
-    
+
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
     <script src="../scripts/jquery-1.9.1.min.js"></script>
     <script src="../scripts/bootstrap.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js"></script>
     <script src="../scripts/myScripts/googlemaps.js"> </script>
-    
+
+    <script>
+        $('#myDropdown .dropdown-menu').on({
+            "click": function (e) {
+                e.stopPropagation();
+            }
+        });
+    </script>
+
 </head>
 
 <body>
@@ -25,7 +33,7 @@
     <header>
         <nav>
             <div class="navbar navbar-inverse navbar-fixed-top">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="nav navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                             <span class="icon-bar"></span>
@@ -63,20 +71,36 @@
                 </div>
                 <div class="col-sm-7">
                     <div class="row">
-                        <div class="col-sm-6 form-group">
-                            <input class="form-control" id="name" type="text" name="name" placeholder="Name" required />
-                        </div>
-                        <div class="col-sm-6 form-group">
-                            <input class="form-control" id="name" type="email" name="email" placeholder="Email" required />
-                        </div>
-                    </div>
-                    <textarea class="form-control" id="comments" name="comments" placeholder="Comments" rows="5"></textarea><br />
+                        <form>
+                            <div class="col-sm-6 form-group">
+                                <input class="form-control" id="name" type="text" name="name" placeholder="Name" required />
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <input class="form-control" id="name" type="email" name="email" placeholder="Email" required />
+                            </div>
 
-                    <div class="row">
-                        <div class="col-sm-12 form-group">
-                            <button class="btn btn-primary btn-lg pull-right">Send</button>
-                        </div>
+                            <textarea class="form-control" id="comments" name="comments" placeholder="Comments" rows="5"></textarea><br />
+                            <div class="list-group">
+                                <div class="dropdown" id="myDropdown">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                        Feedback
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a id="happy" href="#"><img src="../images/happy smilly.jpg"/><span id="one">Very Good</span></a></li>
+                                        <li><a id="normal" href="#"><img src="../images/normal smilly.jpg"/><span id="two">Normal</span></a></li>
+                                        <li><a id="sad" href="#"><img src="../images/sad smilly.jpg"/><span id="three">Very bad</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+
+                            <div class="col-sm-12 form-group">
+                                <button type="submit" class="btn btn-primary btn-lg pull-right ">Send</button>
+                            </div>
+                        </form>
                     </div>
+                   
                 </div>
             </div>
         </div>
